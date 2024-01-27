@@ -1,0 +1,14 @@
+{
+    "jobs": [
+        {
+            "subreddit": "AmItheAsshole",
+            "num_comments": 10,
+            "num_posts": 10
+        },
+        {
+            "subreddit": "AskReddit",
+            "num_comments": 10,
+            "num_posts": 10
+        }
+    ]
+}
