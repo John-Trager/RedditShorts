@@ -1,8 +1,10 @@
 # RedditShorts
+The goal of this project is to create Reddit reading posts in the short form content medium.
+
+> [!Note]
+> Current Status: Reddit data scraping is in working minimal mode. Video generation, text to speech, and other functionality are still being built out
 
 ## Usage
-
-
 data_scraper.py: scrape posts from different subreddit
 - currently supports scraping top n posts and top n comments (through the use of job files)
 ```
