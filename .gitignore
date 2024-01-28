@@ -1,6 +1,10 @@
 secret.json
-__pycache__/*
+*/*__pycache__/*
+*__pycache__/*
+
 test-data/*
+*/*audio-tests/*
+*.wav
 data/*
 DS_Store
 
