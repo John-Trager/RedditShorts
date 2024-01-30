@@ -1,2 +1,4 @@
 praw
 TTS
+stable-ts
+moviepy

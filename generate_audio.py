@@ -39,5 +39,5 @@ if __name__ == '__main__':
 
                 # TODO: process the text based on some rules (e.g. remove links, remove emojis, etc. and expand shorthand words/sayings)
 
-                gen_and_save_audio(syn, text, f'{audio_dir}/{post["id"]}.wav')
+                gen_and_save_audio(syn, text, f'{audio_dir}/{post["id"]}.wav', speaker_name='p273') # try p273
                 log(f'Generated audio for {post["id"]}')

@@ -1,8 +1,8 @@
 # RedditShorts
-The goal of this project is to create Reddit reading posts in the short form content medium.
+The goal of this project is to create Short videos that read Reddit posts and comments.
 
 > [!Note]
-> Current Status: Reddit data scraping is in working minimal mode. Video generation, text to speech, and other functionality are still being built out
+> Current Status: Reddit data scraping, tts, and video captions are in working minimal mode. Video generation, text to speech, and other functionality are still being built out further
 
 ## Usage
 data_scraper.py: scrape posts from different subreddit
@@ -50,3 +50,17 @@ Currently jobs support getting `num_comments` best comments (sorted by best), an
 > } 
 > ```
 > To find out how to create the API credentials see this [video tutorial](https://www.youtube.com/watch?v=r5ifZgbsMok&ab_channel=RunThat)
+
+## TODO
+
+- text to speech
+    - blog of different options: https://ulife.ai/stories/top-free-text-to-speech-tts-libraries-for-python
+    - using VIT model
+- caption generation ?
+    - how to make word level captions
+- movie generation ?
+    - what format do we want exactly?
+
+
+## TTS Modelst
+Models are saved under /Users/"user"/Library/Application Support/tts/"model name"
